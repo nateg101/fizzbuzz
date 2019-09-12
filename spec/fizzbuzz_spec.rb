@@ -24,6 +24,7 @@ describe 'fizzbuzz' do
 end
 
 describe 'fizzbuzz' do
-  it 'returns "nope" when passed " "' do
-    expect(fizzbuzz(" ")). to eq 'nope'
+  it 'returns "nope" when passed ""' do
+    expect(fizzbuzz("")). to eq 'nope'
   end
+end
