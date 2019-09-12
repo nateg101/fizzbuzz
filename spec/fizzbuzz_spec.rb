@@ -18,7 +18,12 @@ describe 'fizzbuzz' do
 end
 
 describe 'fizzbuzz' do
-  it 'retruns "fizzbuzz" when passed 30' do
+  it 'returns "fizzbuzz" when passed 30' do
     expect(fizzbuzz(30)). to eq 'fizzbuzz'
   end
 end
+
+describe 'fizzbuzz' do
+  it 'returns "nope" when passed " "' do
+    expect(fizzbuzz(" ")). to eq 'nope'
+  end
